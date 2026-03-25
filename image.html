@@ -6,14 +6,36 @@
     <meta charset="utf-8">
     <title>Elladee's index page</title>
     <style>
+      body{
+        background-image:url("tiles.png");
+      } 
+       img{
+            border: 4px solid pink;
+            border-radius:10px;
+            box-shadow: 10px 10px 15px grey;
+            transition: transform .5s;
+            margin-left:auto;
+            margin-right:auto;
+            width:600px;
+            display:block;
+        }
+        img:hover {
+            transform:scale(1.05);
+        }
+div {
+    width:300px;
+    height:300px;
+    background-image:url("tiles2.png")
 
+}
     </style>
 </head>
 
 <body>
     <h1>my image</h1>
+    <p> this is a picture of my favorite flower</p>
     <img src="flower.jpg"alt="a pretty pink flower"/>
-
+<div><p>text stuff</p></div>
 </body>
 
 </html>
